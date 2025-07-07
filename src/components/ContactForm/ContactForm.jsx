@@ -62,7 +62,7 @@ const ContactForm = () => {
 
   return (
     <section id='contact'>
-    <div className='h-[900px] bg-white md:mt-[-190px] md:h-[750px] max-w-screen py-[220px] mt-[-130px] md:py-0 mb-[80px]'>
+    <div className='h-[900px] bg-white md:mt-[-190px] md:h-[750px] max-w-screen py-[270px] mt-[-130px] md:py-0 mb-[80px]'>
     <div className="max-w-lg mx-auto p-6 bg-gray-400 rounded-lg shadow-md mt-[600px] md:mt-0 py-8">
       <h2 className="text-2xl font-semibold text-center mb-6 text-gray-500">Contact Us</h2>
       <p className='text-center pb-4 text-slate-700 mb-2'>Contact Syntax Synergy to discuss our application process.</p>
