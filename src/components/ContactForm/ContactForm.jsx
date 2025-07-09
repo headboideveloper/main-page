@@ -62,14 +62,15 @@ const ContactForm = () => {
 
   return (
     <section id='contact'>
-    <div className='h-[900px] bg-white md:mt-[-190px] md:h-[750px] max-w-screen py-[300px] mt-[-130px] md:py-0 mb-[80px]'>
-    <div className="max-w-lg mx-auto p-6 bg-gray-400 h-[750px] rounded-lg shadow-md mt-[600px] md:mt-0 py-8">
-      <h2 className="text-2xl font-semibold text-center mb-6 text-gray-500">Contact Us</h2>
-      <p className='text-center pb-4 text-slate-700 mb-2'>Contact Syntax Synergy to discuss our application process.</p>
+   <div className='max-w-screen h-auto p-6 bg-white items-center'>
+   <div className='text-right md:text-center py-8 md:py-10 max-w-[400px] md:max-w-[700px] mx-auto bg-gray-100 px-2'>
+   <h2 className='text-2xl mb-6 capitalize '>Get in Touch</h2>
+      <p className='text-center pb-4 text-slate-700 mb-2'>Contact us to schedule a consultation and discuss how we can tailor our services to your needs.</p>
+      <div className='text-left'>
       <p className='pb-2 font-bold text-slate-700'>Email </p>
       <p className='pb-4 font-semibold text-gray-600'>syntaxsynergy22@gmail.com</p>
       <p className='pb-2 font-bold text-slate-700'>Phone</p>
-      <p className='pb-8 font-semibold text-gray-600'>+234-705-731-9536</p>
+      <p className='pb-8 font-semibold text-gray-600'>+234-907-887-5406</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-slate-700">
@@ -133,6 +134,8 @@ const ContactForm = () => {
             Send Message
           </button>
         </div>
+       
+      
 
         {submitStatus === 'success' && (
           <p className="text-white text-center mt-4">Message sent successfully!</p>
@@ -141,6 +144,7 @@ const ContactForm = () => {
           <p className="text-red-600 text-center mt-4">Failed to send message. Please try again.</p>
         )}
       </form>
+        </div>
     </div>
     </div>
     </section>
