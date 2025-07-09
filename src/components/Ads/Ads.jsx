@@ -16,7 +16,7 @@ const Ads = () => {
           Partner with Syntax Synergy to bring innovative tech and wellness solutions to your institution today.
           </p>
           <div className='mt-4'>
-          <a href="https://api.whatsapp.com/+2349078875406" className='px-6 py-3 bg-slate-600 text-white font-semibold rounded-lg hover:bg-opacity-80 transition-all duration-300'>Contact Us Now</a>
+          <a href="http://wa.me/+2349078875406" target='_blank' className='px-6 py-3 bg-slate-600 text-white font-semibold rounded-lg hover:bg-opacity-80 transition-all duration-300'>Contact Us Now</a>
           </div>
           <div>
             

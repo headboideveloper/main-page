@@ -138,7 +138,7 @@ const ContactForm = () => {
       
 
         {submitStatus === 'success' && (
-          <p className="text-white text-center mt-4">Message sent successfully!</p>
+          <p className="text-green-600 text-center mt-4">Message sent successfully!</p>
         )}
         {submitStatus === 'error' && (
           <p className="text-red-600 text-center mt-4">Failed to send message. Please try again.</p>
