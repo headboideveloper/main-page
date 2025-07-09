@@ -14,7 +14,9 @@
             <p className="text-lg md:text-xl max-w-2xl">
               We offer more than just an education. We offer you the future.
             </p>
-            <button className='border mt-2 rounded-md px-4 py-2 hover:bg-gray-100 hover:text-gray-600 duration-200'>Partner With Us Today</button>
+            <div className='py-4'>
+            <a href='#contact' className='border mt-2 rounded-md px-4 py-2 hover:bg-gray-100 hover:text-gray-600 duration-200'>Partner With Us Today</a>
+            </div>
           </div>
         </section>
       );
