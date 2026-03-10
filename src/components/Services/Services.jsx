@@ -17,11 +17,7 @@ const Services = () => {
   
         {/* Card 1 — Computer Appreciation */}
         <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl animate-fade-slide-up [animation-delay:100ms]">
-          <img
-            className="w-full h-48 object-cover"
-            src={appreciation}
-            alt="Card image"
-          />
+        <img className="w-full h-48 object-cover" src={appreciation} alt="" role="presentation" />
           <div className="p-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">Computer Appreciation</h2>
             <p className="text-gray-600 text-base">
@@ -35,7 +31,8 @@ const Services = () => {
           <img
             className="w-full h-48 object-cover"
             src={scratch}
-            alt="Card image"
+            alt=""
+            role="presentation"
           />
           <div className="p-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">Scratch Programming</h2>
@@ -55,7 +52,7 @@ const Services = () => {
           <img
             className="w-full h-48 object-cover"
             src={web}
-            alt="Card image"
+            alt="" role="presentation"
           />
           <div className="p-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">Frontend Web Development</h2>
@@ -70,7 +67,7 @@ const Services = () => {
           <img
             className="w-full h-48 object-cover"
             src={phone}
-            alt="Card image"
+            alt="" role="presentation"
           />
           <div className="p-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">Mobile Phone Engineering</h2>

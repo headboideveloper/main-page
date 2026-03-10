@@ -72,7 +72,9 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a href="#navbar"></a>
+            <a href="#navbar" aria-label="Syntax Synergy Home">
+  <img src={logo} alt="Syntax Synergy" className='h-10 w-auto'/>
+</a>
               <a href="#home" className="text-gray-400 block px-3 py-2 rounded-md hover:bg-gray-700 transition hover:text-white">Home</a>
               <a href="#about" className="text-gray-400 block px-3 py-2 rounded-md hover:bg-gray-700 transition hover:text-white">About</a>
               <a href="#services" className="text-gray-400 block px-3 py-2 rounded-md hover:bg-gray-700 transition hover:text-white">Services</a>

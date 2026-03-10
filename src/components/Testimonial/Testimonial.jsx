@@ -47,7 +47,7 @@ const Testimonial = () => {
   useEffect(() => {
     timerRef.current = setInterval(next, 4000);
     return () => clearInterval(timerRef.current);
-  }, [current]);
+  }, [current, next]);
 
   const t = testimonials[current];
 
