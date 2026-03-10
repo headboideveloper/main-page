@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, useCallback } from 'react'
 
 const testimonials = [
   {
@@ -23,6 +23,35 @@ const testimonials = [
     color: "#C9A84C",
   },
 ];
+
+const Testimonial = () => {
+  const [current, setCurrent] = useState(0);
+  const [animating, setAnimating] = useState(false);
+  const [direction, setDirection] = useState('next');
+  const timerRef = useRef(null);
+
+  const goTo = useCallback((index, dir = 'next') => {
+    if (animating) return;
+    setDirection(dir);
+    setAnimating(true);
+    setTimeout(() => {
+      setCurrent(index);
+      setAnimating(false);
+    }, 400);
+  }, [animating]);
+
+  const next = useCallback(() => {
+    goTo((current + 1) % testimonials.length, 'next');
+  }, [current, goTo]);
+
+  const prev = useCallback(() => {
+    goTo((current - 1 + testimonials.length) % testimonials.length, 'prev');
+  }, [current, goTo]);
+
+  useEffect(() => {
+    timerRef.current = setInterval(next, 4000);
+    return () => clearInterval(timerRef.current);
+  }, [next]);
 
 const Testimonial = () => {
   const [current, setCurrent] = useState(0);
