@@ -1,28 +1,48 @@
 import React from 'react'
-import aboutImg from '../../space/bg2.jpg'
+import aboutImg from '../../space/abt.png'
 
 const About = () => {
   return (
     <section id='about'>
-    <div className='max-w-screen h-auto p-6 bg-gray-300'>
-      <div className='flex flex-col items-center py-6 space-y-4 space-x-0 justify-evenly md:space-y-0 md:space-x-5 md:flex-row max-w-[900px] mx-auto'>
-
-      <div className='text-right md:text-center py-8 md:py-10 max-w-[400px] md:max-w-[700px] md:mx-auto'>
-        <h2 className='text-2xl mb-6 capitalize'>about us</h2>
-        <p className='text-gray-700 mb-5'>We are a leading provider of integrated technology and wellness solutions, dedicated to empowering educational institutions. Our mission is to enhance student engagement, operational efficiency, and community well-being through cutting-edge digital tools and health-focused initiatives.
+   <div className='w-full py-12 md:py-20 bg-gray-300 px-6'>
+  <div className='flex flex-col items-center md:flex-row max-w-[1000px] mx-auto gap-8 md:gap-16 justify-center'>
+    
+    {/* Text Column - Now balanced with flex-1 */}
+    <div className='flex-1 flex flex-col justify-center text-center md:text-left order-2 md:order-1'>
+      <h2 className='text-3xl font-bold mb-6 capitalize text-gray-800 tracking-tight'>About Us</h2>
+      <div className='space-y-4 text-gray-700 leading-relaxed'>
+        <p>
+          Syntax Synergy is a technology education company on a mission to make quality, 
+          practical tech skills accessible to every student regardless of age or background. 
+          We partner directly with schools to deliver structured, hands-on technology 
+          programmes that fit seamlessly into the academic calendar.
+        </p>
+        <p>
+          From our youngest learners discovering computers for the first time, to senior 
+          secondary students building and publishing real websites — every programme we 
+          deliver is designed around one principle: students learn best by doing. 
+          No passive listening, no rushed theory.
         </p>
 
-        <p className='text-gray-700 mb-5'>
-        With a focus on sustainability and user-centric design, we bring expertise in website development, data analysis, phone repair, and natural wellness products to create a holistic campus experience.
-        </p>
-        </div>
-
-
-        <div className='text-center py-8 md:py-10 max-w-[400px] md:max-w-[700px] mx-auto'>
-          <img src={aboutImg} alt="about-us Img" className='rounded-md w-400px'/>
-        </div>
+        <div>
+    <p class="font-semibold">Advanced students in JSS 2 and JSS 3 may progress into our Physical Computing extension featuring Arduino and robotics — available as an optional add-on programme.</p>
+  </div>
       </div>
+    </div>
+
+    {/* Image Column - Constrained to match text height */}
+    <div className='flex-1 w-full max-w-[450px] order-1 md:order-2'>
+      <div className='relative overflow-hidden rounded-2xl shadow-xl'>
+        <img 
+          src={aboutImg} 
+          alt="African teens coding together" 
+          className='w-full h-[350px] md:h-[450px] object-cover object-center'
+        />
       </div>
+    </div>
+    
+  </div>
+</div>
       </section>
   )
 }

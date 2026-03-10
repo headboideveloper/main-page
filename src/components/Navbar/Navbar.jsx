@@ -22,11 +22,25 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8 text-gray-400">
+          <div className="hidden md:flex space-x-8 text-black">
             <a href="#hero" className="hover:text-gray-300 transition">Home</a>
             <a href="#about" className="hover:text-gray-300 transition">About</a>
             <a href="#services" className="hover:text-gray-300 transition">Services</a>
             <a href="#contact" className="hover:text-gray-300 transition">Contact</a>
+            {/* Add inside your Desktop Menu div, after the last nav link */}
+
+  <a href="/proposal.pdf"
+  download="Syntax_Synergy_Proposal.pdf"
+  className="inline-flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-700 hover:-translate-y-0.5 transition-all duration-200"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+    <polyline points="7 10 12 15 17 10"/>
+    <line x1="12" y1="15" x2="12" y2="3"/>
+  </svg>
+  Download Proposal
+</a>
+
           </div>
 
           {/* Hamburger Button */}

@@ -1,79 +1,88 @@
 import React from 'react'
-import data from '../../space/data.png'
-import web from '../../space/webdev.jpeg'
-import phone from '../../space/repairer.jpeg'
-import wellness from '../../space/wellness.jpeg'
+import web from '../../space/web.jpg'
+import appreciation from '../../space/appreciation.jpeg'
+import scratch from '../../space/heroo.png'
+import phone from '../../space/phone.jpg'
 
 const Services = () => {
   return (
     <section id='services'>
     <div className='max-w-screen h-auto p-6 bg-white'>
-       <div className='text-right md:text-center py-8 md:py-10 max-w-[400px] md:max-w-[700px] md:mx-auto'>
-       <h2 className='text-2xl mb-6 capitalize '>Services</h2>
+      <div className='text-center md:text-center py-8 md:py-10 max-w-[400px] md:max-w-[700px] md:mx-auto'>
+        <h2 className='text-2xl mb-6 capitalize'>Services</h2>
       </div>
+  
+      {/* Row 1 */}
       <div className='flex flex-col items-center py-6 space-y-4 space-x-0 justify-evenly md:space-y-0 md:space-x-5 md:flex-row max-w-[700px] mx-auto mb-6'>
-      <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
-          <img 
-            className="w-full h-48 object-cover" 
-            src={web} 
-            alt="Card image" 
+  
+        {/* Card 1 — Computer Appreciation */}
+        <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl animate-fade-slide-up [animation-delay:100ms]">
+          <img
+            className="w-full h-48 object-cover"
+            src={appreciation}
+            alt="Card image"
           />
           <div className="p-6">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Website Development</h2>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Computer Appreciation</h2>
             <p className="text-gray-600 text-base">
-            Learn to build dynamic, responsive websites using HTML, CSS, Bootstrap, JavaScript, and Python. From landing pages to weather apps and portfolios, students gain hands-on coding skills and learn to host projects online.
+              We introduce young learners from Nursery 3 through Primary 2 to the world of technology. Students learn to navigate a computer, create and format documents in Microsoft Word, draw creatively in MS Paint and build typing speed using Mavis Beacon — all through fun, hands-on practical sessions.
             </p>
           </div>
         </div>
-
-        <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
-          <img 
-            className="w-full h-48 object-cover" 
-            src={phone} 
-            alt="Card image" 
+  
+        {/* Card 2 — Scratch Programming */}
+        <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl animate-fade-slide-up [animation-delay:250ms]">
+          <img
+            className="w-full h-48 object-cover"
+            src={scratch}
+            alt="Card image"
           />
           <div className="p-6">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Phone Repair Services</h2>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Scratch Programming</h2>
             <p className="text-gray-600 text-base">
-            On-campus repair services and student-led workshops for diagnostics, screen replacements, and software troubleshooting to enhance technical skills.
+              Using the Scratch visual programming platform, students from Primary 3 through JSS 3 learn to build games, animations and interactive stories through hands-on coding. From dancing sprites and animated tales to ping pong games and AI extensions — students graduate with real projects they built themselves.
             </p>
           </div>
         </div>
+  
       </div>
-
+  
+      {/* Row 2 */}
       <div className='flex flex-col items-center py-6 space-y-4 space-x-0 justify-evenly md:space-y-0 md:space-x-5 md:flex-row max-w-[700px] mx-auto mb-6'>
-      <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
-          <img 
-            className="w-full h-48 object-cover" 
-            src={data} 
-            alt="Card image" 
+  
+        {/* Card 3 — Frontend Web Development */}
+        <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl animate-fade-slide-up [animation-delay:400ms]">
+          <img
+            className="w-full h-48 object-cover"
+            src={web}
+            alt="Card image"
           />
           <div className="p-6">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Data Analysis</h2>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Frontend Web Development</h2>
             <p className="text-gray-600 text-base">
-            Empower your school with insights through student performance analytics, operational efficiency reports, and predictive modeling using tools like Excel, Tableau, and Python.
+              Designed for SS1 through SS3 students, this module teaches real, industry-standard web development from scratch. Students progress from HTML structure through CSS styling to JavaScript interactivity — finishing the year by publishing a live personal portfolio website on the internet via GitHub Pages.
             </p>
           </div>
         </div>
-
-        <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
-          <img 
-            className="w-full h-48 object-cover" 
-            src={wellness} 
-            alt="Card image" 
+  
+        {/* Card 4 — Mobile Phone Engineering */}
+        <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl animate-fade-slide-up [animation-delay:550ms]">
+          <img
+            className="w-full h-48 object-cover"
+            src={phone}
+            alt="Card image"
           />
           <div className="p-6">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Beauty Crafting Classes</h2>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Mobile Phone Engineering</h2>
             <p className="text-gray-600 text-base">
-            Wellness workshops teaching hair braiding and crafting natural hair and skin oils (e.g., turmeric oil) to promote self-care and well-being.
+              Students learn about the fundamentals of Android smartphone hardware and repair through completely hands-on practical sessions. Ranging from identifying internal components to the replacing of the screens, batteries, charger ports, and sensors — students leave with real technical skills they can apply immediately for their personal use or to earn a part-time income.
             </p>
           </div>
         </div>
-
-        
+  
       </div>
     </div>
-    </section>
+  </section>
   )
 }
 
