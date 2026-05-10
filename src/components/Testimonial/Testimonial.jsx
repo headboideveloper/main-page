@@ -11,46 +11,27 @@ const testimonials = [
   {
     quote: "I never thought I could build a real website but now mine is live on the internet. The classes are always practical and fun — I look forward to every session.",
     name: "Ephraim Nyam",
-<<<<<<< HEAD
     role: "Web Development Student",
-=======
-    role: "SS2 Student — Web Development",
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
     initials: "EN",
     color: "#1A3A5C",
   },
   {
-<<<<<<< HEAD
     quote: "My child comes home excited about technology every week. Watching them explain coding concepts and show me games they built themselves has been incredible. Worth every penny.",
     name: "Mr. Isaiah Innocent",
     role: "Parent — Home Lesson Client",
-=======
-    quote: "My child comes home excited about technology every week. Watching them explain coding concepts and show me games they built themselves has been incredible. Worth every kobo.",
-    name: "Mr. Isaiah Innocent",
-    role: "Parent",
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
     initials: "II",
     color: "#C9A84C",
   },
   {
-<<<<<<< HEAD
     quote: "We signed our son up for online sessions and the quality has been outstanding. His tutor is patient, knowledgeable and genuinely invested in his progress. He has built three projects in just two months.",
     name: "Sarah Mitchell",
     role: "Parent — Online Session Client",
     initials: "SM",
     color: "#1A3A5C",
-=======
-    quote: "Before Syntax Synergy I had never written a single line of code. Now I have built three games on Scratch and my friends always want to play them. I did not know learning could be this fun.",
-    name: "Nanret Emmanuel",
-    role: "JSS 2 Student — Scratch Programming",
-    initials: "NE",
-    color: "#2E7D32",
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
   },
   {
     quote: "I can now open a phone, identify every component inside and fix a cracked screen by myself. My uncle already paid me to repair his phone. This class changed everything for me.",
     name: "Daniel Leton",
-<<<<<<< HEAD
     role: "Smartphone Engineering Student",
     initials: "DL",
     color: "#6A1B9A",
@@ -69,12 +50,6 @@ const testimonials = [
     initials: "NE",
     color: "#C9A84C",
   },
-=======
-    role: "SS1 Student — Mobile Phone Engineering",
-    initials: "DL",
-    color: "#6A1B9A",
-  },
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
 ];
 
 const Testimonial = () => {
@@ -116,16 +91,11 @@ const Testimonial = () => {
       <div className="absolute bottom-0 left-0 w-56 h-56 bg-yellow-100 rounded-full opacity-40 -translate-x-1/3 translate-y-1/3 pointer-events-none" />
 
       {/* Heading */}
-<<<<<<< HEAD
       <div className="text-center mb-4 relative z-10">
-=======
-      <div className="text-center mb-12 relative z-10">
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
         <h2 className="text-2xl font-bold text-gray-800 mb-3 capitalize">
           What Our Clients Say
         </h2>
         <div className="w-12 h-1 bg-yellow-500 mx-auto rounded-full" />
-<<<<<<< HEAD
         <p className="text-gray-400 text-sm mt-3 max-w-md mx-auto">
           From school partnerships to individual home lessons and online sessions — 
           here is what our clients around the world say about learning with us.
@@ -147,8 +117,6 @@ const Testimonial = () => {
             {tab.label}
           </button>
         ))}
-=======
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
       </div>
 
       {/* Carousel wrapper */}
@@ -167,17 +135,12 @@ const Testimonial = () => {
             }
           `}
         >
-<<<<<<< HEAD
-=======
-
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
           {/* Coloured top bar */}
           <div
             className="w-12 h-1 rounded-full mx-auto mb-6"
             style={{ backgroundColor: t.color }}
           />
 
-<<<<<<< HEAD
           {/* Large decorative quote mark */}
           <div
             className="text-6xl font-serif leading-none mb-2 opacity-20"
@@ -189,11 +152,6 @@ const Testimonial = () => {
           {/* Quote text */}
           <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-8 italic">
             {t.quote}
-=======
-          {/* Quote text */}
-          <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-8">
-            "{t.quote}"
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
           </p>
 
           {/* Avatar + name */}

@@ -4,10 +4,7 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-<<<<<<< HEAD
     interest: '',
-=======
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
     message: ''
   });
   const [errors, setErrors] = useState({});
@@ -65,11 +62,7 @@ const ContactForm = () => {
       });
       if (response.ok) {
         setSubmitStatus('success');
-<<<<<<< HEAD
         setFormData({ name: '', email: '', interest: '', message: '' });
-=======
-        setFormData({ name: '', email: '', message: '' });
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
         setErrors({});
       } else {
         setSubmitStatus('error');
@@ -99,18 +92,12 @@ const ContactForm = () => {
         {/* Left — Info */}
         <div className="flex flex-col gap-8">
 
-<<<<<<< HEAD
           {/* ✅ UPDATED intro text */}
           <p className="text-gray-600 leading-relaxed">
             Whether you are a school looking to partner with us, a parent seeking
             individual lessons for your child or a learner ready to get started from
             anywhere in the world — we would love to hear from you. Reach out and
             let us find the perfect fit together.
-=======
-          <p className="text-gray-600 leading-relaxed">
-            Interested in bringing Syntax Synergy to your school? We'd love to hear from you.
-            Reach out and let's discuss a programme tailored to your students.
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
           </p>
 
           {/* Contact details */}
@@ -150,11 +137,7 @@ const ContactForm = () => {
               </div>
               <div>
                 <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Location</p>
-<<<<<<< HEAD
                 <p className="text-gray-700 font-medium">Based in Nigeria · Available Worldwide</p>
-=======
-                <p className="text-gray-700 font-medium">Jos, Plateau State, Nigeria</p>
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
               </div>
             </div>
 
@@ -162,13 +145,8 @@ const ContactForm = () => {
 
           {/* Social links */}
           <div className="flex items-center gap-4">
-<<<<<<< HEAD
             <a
               href="https://facebook.com/SyntaxSynergy"
-=======
-            
-             <a href="https://facebook.com/SyntaxSynergy"
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-gray-800 hover:bg-yellow-500 text-white flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -177,13 +155,8 @@ const ContactForm = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
               </svg>
             </a>
-<<<<<<< HEAD
             <a
               href="https://instagram.com/SyntaxSynergy"
-=======
-            
-            <a  href="https://instagram.com/SyntaxSynergy"
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-gray-800 hover:bg-yellow-500 text-white flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -238,7 +211,6 @@ const ContactForm = () => {
               {errors.email && <p className="mt-1 text-xs text-red-500">{errors.email}</p>}
             </div>
 
-<<<<<<< HEAD
             {/* ✅ NEW — Interest dropdown */}
             <div>
               <label htmlFor="interest" className="block text-sm font-semibold text-gray-700 mb-1">
@@ -264,27 +236,18 @@ const ContactForm = () => {
               </select>
             </div>
 
-=======
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
             <div>
               <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-1">
                 Message <span className="text-red-500">*</span>
               </label>
-<<<<<<< HEAD
               {/* ✅ UPDATED placeholder */}
-=======
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
               <textarea
                 id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
                 rows="5"
-<<<<<<< HEAD
                 placeholder="Tell us what you are looking for and how we can help..."
-=======
-                placeholder="Tell us about your school and what you're looking for..."
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
                 className={`w-full px-4 py-3 rounded-lg border outline-none text-sm transition-all duration-200 resize-none
                   focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400
                   ${errors.message ? 'border-red-400 bg-red-50' : 'border-gray-200 bg-gray-50'}`}
@@ -302,11 +265,7 @@ const ContactForm = () => {
             {submitStatus === 'success' && (
               <div className="flex items-center gap-2 bg-green-50 border border-green-200 text-green-700 rounded-lg px-4 py-3 text-sm">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-<<<<<<< HEAD
                 Message sent successfully! We will get back to you within 24 hours.
-=======
-                Message sent successfully! We'll get back to you soon.
->>>>>>> 7ac6601b7eb734371d035e78dcb859bfc8f27e8a
               </div>
             )}
             {submitStatus === 'error' && (
