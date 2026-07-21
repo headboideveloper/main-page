@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Aim from './components/Aim/Aim';
@@ -11,27 +11,41 @@ import Testimonial from './components/Testimonial/Testimonial';
 import Ads from './components/Ads/Ads';
 import Partners from './components/Partners/Partners';
 import Individual from './components/Individual/Individual';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
 function App() {
+  const [page, setPage] = useState('home');
   return (
     <div className='bg-white text-black min-h-screen w-full'>
-    <Navbar/>
-    <Hero/>
-    <About/>
-    <Partners/>
-    <Services/>
-    <Individual/>
-    <Aim/>
-    <Plan/>
-    <Testimonial/>
-    <ContactForm/>
-    <Ads/>
-    <Footer/>
+      {page === 'home' && (
+        <>
+          <Navbar setPage={setPage} />
+            <Hero/>
+            <About/>
+            <Partners/>
+            <Services/>
+            <Individual/>
+            <Aim/>
+            <Plan/>
+            <Testimonial/>
+            <ContactForm/>
+            <Ads/>
+            <Footer setPage={setPage}/>
+        </>
+      )}
+
+      {/* {page === 'privacy' && (
+        <>
+        <Navbar setPage={setPage} />
+        <PrivacyPolicy/>
+        <Footer setPage={setPage} />
+        </>
+      )} */}
   
     {/* WhatsApp Floating Button */}
     
-      <a href="https://wa.me/2349078875406"
+      <a href="https://wa.me/2347057319536"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center justify-center"

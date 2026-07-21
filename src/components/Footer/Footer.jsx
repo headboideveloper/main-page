@@ -49,7 +49,7 @@ const Footer = () => {
             </a>
 
             
-            <a    href="https://wa.me/2349078875406"
+            <a    href="https://wa.me/2347057319536"
               target="_blank"
               rel="noopener noreferrer"
               className='w-9 h-9 rounded-full bg-white bg-opacity-10 hover:bg-yellow-500 flex items-center justify-center transition-all duration-300 hover:scale-110'
@@ -139,13 +139,13 @@ const Footer = () => {
               syntaxsynergy22@gmail.com
             </a>
             
-            <a  href="tel:+2349078875406"
+            <a  href="tel:+2347057319536"
               className='text-gray-400 hover:text-yellow-400 text-sm transition-colors duration-200 flex items-center gap-2'
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                 <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
               </svg>
-              +234-907-887-5406
+              +234-705-731-9536
             </a>
           </div>
         </div>

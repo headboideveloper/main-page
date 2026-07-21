@@ -105,7 +105,7 @@ const Ads = () => {
 
             {/* Secondary CTA — WhatsApp */}
             
-           <a   href="https://wa.me/2349078875406"
+           <a   href="https://wa.me/2347057319536"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 border-2 border-white text-white font-bold rounded-xl hover:bg-white hover:text-gray-900 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl text-sm whitespace-nowrap flex items-center gap-2"

@@ -157,7 +157,7 @@ const Individual = () => {
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <a
-            href="https://wa.me/2349049809176"
+            href="https://wa.me/2347057319536"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-yellow-500 text-gray-900 font-bold rounded-xl hover:bg-yellow-400 transition-all duration-300 hover:-translate-y-1 flex items-center justify-center gap-2"
