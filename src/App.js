@@ -11,7 +11,7 @@ import Testimonial from './components/Testimonial/Testimonial';
 import Ads from './components/Ads/Ads';
 import Partners from './components/Partners/Partners';
 import Individual from './components/Individual/Individual';
-import PrivacyPolicy from './pages/PrivacyPolicy';
+// import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
 function App() {
@@ -35,13 +35,6 @@ function App() {
         </>
       )}
 
-      {/* {page === 'privacy' && (
-        <>
-        <Navbar setPage={setPage} />
-        <PrivacyPolicy/>
-        <Footer setPage={setPage} />
-        </>
-      )} */}
   
     {/* WhatsApp Floating Button */}
     

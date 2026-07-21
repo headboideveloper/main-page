@@ -33,14 +33,6 @@ const Navbar = ({ setPage }) => {
             <a href="#individual" className="hover:text-gray-300 transition">For Individuals</a>
             <a href="#contact" className="hover:text-gray-300 transition">Contact</a>
 
-            {/* <button 
-                onClick={() => setPage('privacy')}
-                className='hover:text-gray-300 transition'
-                >
-                  Privacy Policy
-                </button> */}
-            {/* Add inside your Desktop Menu div, after the last nav link */}
-
   <a href="/proposal.pdf"
   download="Syntax_Synergy_Proposal.pdf"
   className="inline-flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-700 hover:-translate-y-0.5 transition-all duration-200"
