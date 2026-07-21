@@ -33,8 +33,8 @@ const Navbar = ({ setPage }) => {
             <a href="#individual" className="hover:text-gray-300 transition">For Individuals</a>
             <a href="#contact" className="hover:text-gray-300 transition">Contact</a>
 
-  <a href="/proposal.pdf"
-  download="Syntax_Synergy_Proposal.pdf"
+  <a href="/proposal.PDF"
+  download="proposal.PDF"
   className="inline-flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-700 hover:-translate-y-0.5 transition-all duration-200"
 >
   <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -83,8 +83,8 @@ const Navbar = ({ setPage }) => {
               <a href="#about" className="text-gray-400 block px-3 py-2 rounded-md hover:bg-gray-700 transition hover:text-white">About</a>
               <a href="#services" className="text-gray-400 block px-3 py-2 rounded-md hover:bg-gray-700 transition hover:text-white">Services</a>
               <a href="#contact" className="text-gray-400 block px-3 py-2 rounded-md hover:bg-gray-700 transition hover:text-white">Contact</a>
-              <a href="/proposal.pdf"
-  download="Syntax_Synergy_Proposal.pdf"
+              <a href="/proposal.PDF"
+  download="proposal.PDF"
   className="inline-flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-700 hover:-translate-y-0.5 transition-all duration-200"
 >
   <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
