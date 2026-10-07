@@ -36,7 +36,7 @@ const About = () => {
               {/* Stats row */}
               <div className='flex flex-wrap gap-6 pt-2 justify-center md:justify-start'>
                 <div className='text-center md:text-left'>
-                  <p className='text-2xl font-extrabold text-gray-800'>140+</p>
+                  <p className='text-2xl font-extrabold text-gray-800'>175+</p>
                   <p className='text-xs font-semibold text-gray-500 uppercase tracking-widest'>Individual Clients</p>
                 </div>
                 <div className='text-center md:text-left'>

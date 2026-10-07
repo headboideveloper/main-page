@@ -7,7 +7,7 @@ import phone from '../../space/phone.jpg'
 const services = [
   {
     image: appreciation,
-    title: "Computer Appreciation",
+    title: "Digital Literacy & Computer Basics",
     level: "Nursery 3 — Primary 2",
     description: "We introduce young learners to the world of technology. Students learn to navigate a computer, create and format documents in Microsoft Word, draw creatively in MS Paint and build typing speed using Mavis Beacon — all through fun, hands-on practical sessions.",
     accent: "#3D1F2D",
@@ -15,7 +15,7 @@ const services = [
   },
   {
     image: scratch,
-    title: "Scratch Programming",
+    title: "Scratch Programming & Robotics",
     level: "Primary 3 — JSS 3",
     description: "Using the Scratch visual programming platform, students learn to build games, animations and interactive stories through hands-on coding. From dancing sprites to ping pong games and AI extensions — students graduate with real projects they built themselves.",
     accent: "#C9A84C",

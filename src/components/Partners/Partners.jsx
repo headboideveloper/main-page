@@ -5,6 +5,7 @@ import westwood from '../../space/Westwood.jpg'
 import perezville from '../../space/perezville.jpg'
 import effloresce from '../../space/effloresce.jpg'
 import croydon from '../../space/croydon.png'
+import pccs from '../../space/pccs.jpg'
 
 // ── Count-up hook ──
 function useCountUp(target, duration = 2000, startCounting) {
@@ -40,6 +41,7 @@ const schools = [
   { name: "WESTWOOD PARK SCHOOLS", logo: westwood},
   { name: "PEREZVILLE INT'L SCHOOLS", logo: perezville },
   { name: "EFFLORESCE M. MONTESSORI SCHOOLS", logo: effloresce },
+  { name: "Practical Computers Comprehensive Schools", logo: pccs },
 ];
 
 // Doubles the list for a seamless infinite loop — do not edit this
