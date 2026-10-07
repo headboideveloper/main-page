@@ -6,7 +6,7 @@
         <section
           className="relative h-[600px] bg-cover bg-center flex items-end"
           style={{
-            backgroundImage: `url('/images/herobg.png')`,
+            backgroundImage: `url('/images/herobg.webp')`,
           }}
         >
           <div className="w-full bg-black bg-opacity-60 text-white py-4 px-6 md:p-12">
